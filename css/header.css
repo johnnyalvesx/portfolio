@@ -21,6 +21,7 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  border-radius: 4px;
 }
 
 @media (max-width: 800px) {
