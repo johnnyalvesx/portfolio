@@ -1,5 +1,5 @@
 .formacao {
-  background: #141414;
+  background: #242424;
   color: #ffffff;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .formacao .subtitulo {
-  color: #000000;
+  color: #484848;
   max-width: 3.2ch;
 }
 
@@ -34,7 +34,7 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: #c5c5c5;
 }
 
 .formacao-texto strong {
@@ -60,7 +60,7 @@
 .estudo-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #999999;
   margin-bottom: 10px;
 }
 
@@ -86,7 +86,7 @@
 
 .estudo-instituicao {
   font-size: 1.125rem;
-  color: #a3a3a3;
+  color: #999999;
 }
 
 .cursos {
@@ -96,7 +96,7 @@
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #838383;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -127,11 +127,11 @@
 }
 
 .formacao-extra-duration {
-  color: #8f8f8f;
+  color: #838383;
 }
 
 .idiomas-level {
-  color: #8f8f8f
+  color: #838383
 }
 
 .cursos li {

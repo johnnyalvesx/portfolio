@@ -8,7 +8,7 @@
 }
 
 .experiencia .subtitulo {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 .experiencia-texto {
@@ -28,7 +28,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: #f4f4f4;
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
@@ -65,7 +65,7 @@
 .empresa-texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: #484848;
 }
 
 .empresa-habilidades {

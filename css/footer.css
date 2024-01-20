@@ -15,7 +15,7 @@
 .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  color: #cccccc;
+  color: #c5c5c5;
 }
 
 .footer-contato li {
@@ -33,7 +33,7 @@
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
-  color: #8f8f8f;
+  color: #838383;
 }
 
 @media (max-width: 800px) {
