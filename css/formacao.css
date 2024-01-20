@@ -126,8 +126,12 @@
   margin-bottom: 20px;
 }
 
-.formacao-extra span {
+.formacao-extra-duration {
   color: #8f8f8f;
+}
+
+.idiomas-level {
+  color: #8f8f8f
 }
 
 .cursos li {
@@ -146,6 +150,21 @@
   }
   .formacao-texto {
     font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .formacao-container::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    background: url("../img/deco.svg") no-repeat center;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
   }
   .formacao-container::after img {
     width: -20px;
