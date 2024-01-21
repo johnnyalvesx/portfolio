@@ -84,13 +84,31 @@
   border-radius: 5px 0px 0px 5px;
 }
 
+.cursos {
+  margin-bottom: 60px;
+}
+
+.cursos-itens {
+  display: flex;
+  flex-direction: column;
+}
+
+.cursos-itens li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursos-itens li .formacao-extra-duration {
+  margin-left: auto;
+}
+
+.cursos-itens li span:first-child {
+  margin-right: 10px;
+}
+
 .estudo-instituicao {
   font-size: 1.125rem;
   color: #999999;
-}
-
-.cursos {
-  margin-bottom: 60px;
 }
 
 .formacao-extra h3 {
@@ -127,11 +145,11 @@
 }
 
 .formacao-extra-duration {
-  color: #838383;
+  color: #999999;
 }
 
 .idiomas-level {
-  color: #838383
+  color: #999999;
 }
 
 .cursos li {
@@ -169,5 +187,12 @@
   .formacao-container::after img {
     width: -20px;
     height: 50px;
+  }
+  .cursos-itens li span{
+    font-size: 0.9375rem;
+  }
+
+  .idiomas-itens li {
+    font-size: 0.9375rem;
   }
 }
